@@ -1,0 +1,50 @@
+h3
+{
+    font-family: "Lato";
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px white;
+    text-align: center;
+    line-height: 38px;
+    color: white;
+}
+
+
+#contacts
+{
+    width: 600px;
+    font-family: "Lato";
+    font-size: 30px; 
+    text-shadow: 1px 1px 2px white;
+    color: #FFE4C4;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+input
+{
+    width: 300px;
+    height: 30px;
+}
+
+input[type]
+{
+    background-color: #C0C0C0;
+}
+textarea[id="message"]
+{
+    background-color: #C0C0C0;
+}
+::-webkit-input-placeholder
+{
+    color: black;
+}
+button[name="submit"]
+{
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
