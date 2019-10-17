@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html style="background:url(background.jpeg)">
+
+<head>
+    <title>Contacts</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="reset.css" type="text/css" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <link rel="stylesheet" href="contacts.css" type="text/css" />
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <div><a href="index.html" id="logo">YourChoice</a></div>
+            <nav>
+                <a href="index.html">Home </a>
+                <a href="about.html"> About </a>
+                <a href="products.html"> Products </a>
+                <a href="contacts.html"> Contacts </a>
+            </nav>
+        </header>
+        <br>
+        <br>
+        <br>
+
+        <h3>Contact us</h3>
+        <br>
+        <br>
+        <br>
+        <!--<div class="contacts_wrapper"></div>-->
+        <img align= 'right' src="phone.jpeg" alt="contact" width="500" height="500"></img>
+
+        <div id="contacts">
+            <form action="https://formspree.io/maher.olena96@gmail.com" method="post">
+                <fieldset>
+
+                    <label for="first_name">First Name</label>
+                    <br>
+                    <input type="text" name="first_name" id="first_name" required>
+                    <br>
+                    <br>
+                    <label for="last_name">Last Name</label>
+                    <br>
+                    <input type="text" name="last_name" id="last_name" required>
+                    <br>
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Your email">
+                    <br>
+                    <br>
+                    <label for="message">Message</label>
+                    <br>
+                    <br>
+                    <textarea name="message" id="message" cols="50" rows="10" placeholder="Your message"></textarea>
+                    <br>
+                    <label for="submit"></label>
+                    <button name="submit" id="submit">
+                      Submit     
+                   </button>
+                </fieldset>
+            </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <p id="footer_logo">© YourChoice</p>
+        </footer>
+    </div>
+</body>
+
+</html>
