@@ -14,7 +14,8 @@ header
 }
 
 .container 
-{
+{ 
+/*    text-align: center;*/
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -62,7 +63,9 @@ h1
     right: 15px;
     opacity: 0.85;
     
-}
+    
+   
+} 
 
 .text_wrapper
 { 
@@ -114,3 +117,9 @@ nav > a
     overflow: hidden;
     
 }
+
+/*
+.container span{
+    color: white: uppercase;
+    display: block;
+}*/
